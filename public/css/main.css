@@ -1,0 +1,51 @@
+@font-face {font-family: 'Cinta'; src: url('../assets/fonts/cinta/CintaRegular-Bold.eot'); src: local('Cinta Regular Bold'), local('CintaRegular-Bold'), url('../assets/fonts/cinta/CintaRegular-Bold.eot?#iefix') format('embedded-opentype'), url('../assets/fonts/cinta/CintaRegular-Bold.woff2') format('woff2'), url('../assets/fonts/cinta/CintaRegular-Bold.ttf') format('truetype'), url('../assets/fonts/cinta/CintaRegular-Bold.svg#CintaRegular-Bold') format('svg'); font-weight: bold; font-style: normal; } @font-face {font-family: 'Cinta'; src: url('../assets/fonts/cinta/CintaRegular.eot'); src: local('Cinta Regular'), local('CintaRegular'), url('../assets/fonts/cinta/CintaRegular.eot?#iefix') format('embedded-opentype'), url('../assets/fonts/cinta/CintaRegular.woff2') format('woff2'), url('../assets/fonts/cinta/CintaRegular.ttf') format('truetype'), url('../assets/fonts/cinta/CintaRegular.svg#CintaRegular') format('svg'); font-weight: 500; font-style: normal; } @font-face {font-family: 'Cinta'; src: url('../assets/fonts/cinta/CintaRegular-Italic.eot'); src: local('Cinta Regular Italic'), local('CintaRegular-Italic'), url('../assets/fonts/cinta/CintaRegular-Italic.eot?#iefix') format('embedded-opentype'), url('../assets/fonts/cinta/CintaRegular-Italic.woff2') format('woff2'), url('../assets/fonts/cinta/CintaRegular-Italic.ttf') format('truetype'), url('../assets/fonts/cinta/CintaRegular-Italic.svg#CintaRegular-Italic') format('svg'); font-weight: 500; font-style: italic; }
+* { 
+font-family: Cinta !important; 
+}
+.content-wrapper {
+	width: 100%;
+	max-width: 1140px;
+	padding: 2em;
+	margin: 0 auto;
+}
+
+#logo {
+	background: url('../img/logo.png');
+	width: 256px;
+	height: 70px;
+	margin: 50px auto 40px auto;
+}
+
+.panel-heading {
+	text-overflow: ellipsis;
+	overflow: hidden;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.panel-body .progress {
+	width: 100%;
+	margin: 0;
+}
+
+.panel .label {
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+.panel label {
+	font-size: 12px;
+	font-weight: 400;
+	text-transform: uppercase;
+	margin-left: 15px;
+}
+#file-links a, #file-links a:hover, #file-links a:active, #file-links a:visited{
+    color: #ffffff;
+    cursor: pointer;
+}
+
+div#file-links {
+    float: right;
+    display: none;
+}
